@@ -9,7 +9,7 @@ Este es un proyecto de un sitio web estatico para un micro emprendimiento, el si
 
 El sitio web consta de 4 paginas el cual son estaticas y en el cual se podra navegar entre ellas.
 
-
+- Sitio alojado: https://dulce-sil.netlify.app/
 
 ### Proceso
 ------------
