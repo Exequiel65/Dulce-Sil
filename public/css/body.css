@@ -1,0 +1,130 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 50%;
+}
+p{
+    font-family: var(--red-hat);
+}
+
+
+hr{
+    width: 100%;
+    background: rgb(238, 238, 238);
+    height: 1px;
+    box-shadow: none;
+    border-radius: 20px;
+    border: none;
+}
+section, .navbar-list, .description, .novedades, .product, .products_container, .products-cake-shop, .products-bakery, .burger-menu, .updown-nav, .red-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description, .novedades, .products-bakery, .products-cake-shop{
+    width: 90%;
+    text-align: center;
+}
+
+.description img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.products_container{
+    width: 100%;
+}
+
+h2, h3{
+    font-family: var(--Courgette);
+    padding: 10px 0;
+}
+
+.description p{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+.novedades, .products-cake-shop, .products-bakery{
+    margin: 15px 0;
+}
+
+.product{
+    background-color: rgba(245, 245, 245, 0.308);
+    padding: 10px 0;
+    margin: 5px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(218, 218, 218);
+}
+
+.product img{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.description{
+    padding: 20px 0;
+    background-color: rgba(141, 241, 241, 0.26);
+    width: 100%;
+}
+
+.float-wsp{
+    position: fixed;
+    top: 90%;
+    right: 5px;
+    width: fit-content;
+    width: -mz-fit-content;
+
+}
+
+.float-wsp i{
+    font-size: 40px;
+    color: yellowgreen;
+    border-radius: 30%;
+}
+
+
+.red-social{
+    text-align: center;
+    width: 100%;
+    background-color: var(--contact-red);
+    padding: 20px 0;
+}
+
+
+@media (min-width: 840px) {
+    .novedades h3, .products-cake-shop h3, .products-bakery h3{
+        font-size: 2.5rem;
+    }
+    .products_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .product{
+        max-width: 350px;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .product{
+        max-width: 300px;
+    }
+    .products_container{
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,24 @@
+footer{
+    background-color: var(--back-footer);
+    padding: 20px 0 20px 10px;
+}
+
+h4{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.phone, .mail, .direction, .delivery{
+    padding: 5px 0;
+}
+
+.phone p, .mail p, .direction p{
+    padding: 5px;
+}
+
+.delivery i{
+    color: rgb(97, 255, 97);
+    border: 1px solid rgb(97, 255, 97);
+    padding: 5px;
+    border-radius: 50%;
+}

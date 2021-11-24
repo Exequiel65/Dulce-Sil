@@ -6,125 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <title>Dulce Sil</title>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Dulce Sil</a></li>
-                <li><a href="#products-pasteleria">Pastelería</a></li>
-                <li><a href="#products-panaderia">Panadería</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul class="navbar-list">
+            <li><a href="#">Dulce Sil</a></li>
+            <li><a href="#products-pasteleria">Pastelería</a></li>
+            <li><a href="#products-panaderia">Panadería</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="updown-nav">
+            <i class="fas fa-caret-down"></i>
+        </div>
+    </nav>
+
 
     <section>
 
-        <article>
+        <article class="description">
             <h2>Nosotros</h2>
-            <div>
+            <div class="logo">
                 <img src="./public/images/logo.jpeg" alt="Logo de dulce sil">
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, beatae! Fuga cum similique perferendis ipsa ipsum, obcaecati quia assumenda quo incidunt, neque voluptate itaque placeat recusandae non ad sapiente vitae?</p>
+            <p class="text-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, beatae! Fuga cum similique perferendis ipsa ipsum, obcaecati quia assumenda quo incidunt, neque voluptate itaque placeat recusandae non ad sapiente vitae?</p>
         </article>
 
-        <article>
+        <article class="novedades">
             <h3>Novedades</h3>
-            <div>
-                <div>
+            <div class="products_container">
+                <div class="product">
                     <img src="./public/images/panaderia/Feliz dia.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
-                    <img src="./public/images/panaderia/Regalo.jpeg" alt="Desayuno de feliz dia">
+                <div class="product">
+                    <img src="./public/images/panaderia/Regalo.jpeg" alt="Desayuno de feliz dia" style="max-height: 145px;">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/panaderia/Desayuno.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/panaderia/Masitas.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
             </div>
         </article>
 
-        <article class="products-contain" id="products-pasteleria">
+        <hr>
+
+        <article class="products-cake-shop">
             <h3>Nuestros Productos de Pastelería</h3>
-            <div>
-                <div>
+            <div class="products_container">
+                <div class="product">
                     <img src="./public/images/tortas/dragon.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/tortas/torta1.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/tortas/bambi.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/tortas/torta2.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
             </div>
         </article>
 
-        <article id="products-panaderia">
+        <hr>
+
+        <article class="products-bakery">
             <h3>Nuestros productos de Panadería</h3>
-            <div>
-                <div>
+            <div class="products_container">
+                <div class="product">
                     <img src="./public/images/panaderia/donas.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/panaderia/meriendas.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/panaderia/facturas.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
-                <div>
+                <div class="product">
                     <img src="./public/images/panaderia/pastelitos.jpeg" alt="Desayuno de feliz dia">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim fugit velit, soluta architecto sit, molestiae magnam tempore expedita neque voluptate earum cupiditate cumque autem non, facere et suscipit corrupti saepe.</p>
                 </div>
             </div>
         </article>
 
-        <article>
+        <hr>
+
+        <article class="red-social">
             <p>Contactanos para asesorarte sobre todas las variedad en especialidades que trabajamos</p>
-            <p>Ir a Whatsapp</p>
-            <i class="fab fa-whatsapp"></i>
+            <br>
+            <a href="https://wa.me/543516061207" target="__blank"><i class="fab fa-whatsapp"></i>  Ir a Whatsapp</a>
+            <a href="https://www.instagram.com/silvana.abregu.72/" target="__blank"><i class="fab fa-instagram"></i> ó siguenos en Instagram</a>
+            
         </article>
     </section>
+
+    <div class="float-wsp">
+        <a href="https://wa.me/543516061207" target="__blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
     
 
-    <footer id="contact">
-        <div>
-            <h4>Redes Sociales</h4>
-            <i class="fab fa-instagram"></i>
-            <p>Instagram</p>
-            <i class="fab fa-whatsapp"></i>
-            <p>Whatsapp</p>
-        </div>
+    <footer>
         <div>
             <h4>Contacto</h4>
-            <i class="fas fa-phone"></i>
-            <p>3516061207</p>
-            <i class="fas fa-envelope"></i>
-            <p>email</p>
-            <i class="fas fa-map-marker-alt"></i>
-            <p>direccion</p>
+            <div class="phone">
+                <p>Teléfono</p>
+                <a href="tel:+543516061207"><i class="fas fa-phone">  3516061207</i></a>
+            </div>
+            
+            
+            <div class="mail">
+                <p>Email</p>
+                <a href="mailto:silvanabregu72@gmail.com"><i class="fas fa-envelope"></i>  Envíanos un correo</a>
+            </div>
+            
+            <div class="direction">
+                <p>Nuestra Dirección</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9249635119627!2d-64.25982394849076!3d-31.416193403296525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329f44e0410455%3A0x29a642c1441da845!2sCayupan%201084%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1637716046209!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="delivery">
+                
+                <p> <i class="fas fa-truck"></i> Hacemos envío en Córdoba capital</p>
+            </div>
         </div>
-        <div>
-            <i class="fas fa-truck"></i>
-            <p> Hacemos envio en Córdoba</p>
-        </div>
+        
     </footer>
 
 </body>
