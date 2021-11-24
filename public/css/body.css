@@ -22,7 +22,7 @@ hr{
     border-radius: 20px;
     border: none;
 }
-section, .navbar-list, .description, .novedades, .product, .products_container, .products-cake-shop, .products-bakery, .burger-menu, .updown-nav, .red-social{
+section, .description, .novedades, .product, .products_container, .products-cake-shop, .products-bakery, .updown-nav, .red-social{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,6 +100,15 @@ h2, h3{
     width: 100%;
     background-color: var(--contact-red);
     padding: 20px 0;
+}
+
+.red-social a{
+    color: black;
+}
+
+.red-social a:hover{
+    color: green;
+    text-decoration: underline;
 }
 
 
