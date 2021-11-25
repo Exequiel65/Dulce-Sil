@@ -10,6 +10,15 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+}
+
+ul{
+    width: 100%;
+}
+
+.navbar{
+    display: none;
 }
 
 nav li{
@@ -20,7 +29,7 @@ nav li{
     text-align: center;
     border-top: 1px  solid rgba(230, 227, 227, 0.363);
     border-bottom: 1px  solid rgba(230, 227, 227, 0.363);
-    display: none;
+    
 }
 
 nav li a{
@@ -64,6 +73,9 @@ nav li:hover{
     }
     .burger-menu{
         display: none;
+    }
+    .navbar{
+        display: block;
     }
 }
 
